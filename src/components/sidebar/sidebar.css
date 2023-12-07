@@ -1,0 +1,48 @@
+.Sidebar {
+  background: #234355;
+  height: 100vh;
+  padding: 3rem 0 3rem 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.Sidebar .sidebar-top {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+}
+
+.Sidebar a {
+  margin-bottom: 2.5rem;
+  padding: 1rem 0.7rem 1rem 0.2rem;
+  border-radius: 4rem 0 0 4rem;
+}
+.Sidebar .sidebar-top a:hover,
+.active {
+  background: rgba(79, 105, 119, 1);
+  width: 100%;
+}
+
+.Sidebar .export {
+  margin-bottom: 2.5rem;
+  padding: 1rem 0.7rem 1rem 0.2rem;
+  border-radius: 4rem 0 0 4rem;
+  object-fit: none;
+  cursor: pointer;
+
+}
+.Sidebar .export:hover{
+	background: rgba(79, 105, 119, 1);
+}
+
+.Sidebar .sidebar-bottom span {
+  font-style: normal;
+  font-weight: 300;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 0.5rem 0 0;
+  cursor: pointer;
+}

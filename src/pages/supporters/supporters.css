@@ -1,0 +1,15 @@
+.Supporters {
+  display: flex;
+  background: #f2f5f7;
+  height: 100vh;
+}
+
+.Supporters .supporters-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.Supporters .supporters-content {
+  margin-top: 1rem;
+}

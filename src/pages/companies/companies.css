@@ -1,0 +1,15 @@
+.Companies {
+  display: flex;
+  background: #f2f5f7;
+  height: 100vh;
+}
+
+.Companies .companies-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.Companies .companies-content {
+  margin-top: 1rem;
+}

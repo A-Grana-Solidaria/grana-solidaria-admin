@@ -1,0 +1,32 @@
+.tbody:nth-child(odd) {
+  background: white;
+  border: 2px solid rgba(71, 137, 173, 0.1);
+}
+
+.tbody:nth-child(even) {
+  background: rgba(174, 195, 209, 0.2);
+  border: 2px solid rgba(71, 137, 173, 0.1);
+}
+
+td {
+  padding: 0.8rem;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+td:first-child {
+  padding-left: 2rem;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: left;
+  border-radius: 10px 0 0 10px;
+}
+
+td:last-child {
+  border-radius: 0 10px 10px 0;
+}

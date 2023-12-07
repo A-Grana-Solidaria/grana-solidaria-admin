@@ -1,0 +1,116 @@
+.ModalSupporter .modal-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.3rem 1.5rem 1.5rem 1.5rem;
+  margin: 0;
+}
+
+.ModalSupporter h2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-bottom: 0.8rem;
+  border-bottom: 2px solid #234355;
+}
+
+.ModalSupporter p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  color: #000000;
+  margin-top: 1.4rem;
+  margin-bottom: 0.7rem;
+}
+
+.ModalSupporter .buttons-modal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ModalSupporter .buttons-modal button {
+  background: #db511f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 0.5rem;
+  width: 50%;
+  border: none;
+}
+
+.ModalSupporter .buttons-modal button:first-child {
+  background: #ffffff;
+  border: 2px solid #db511f;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 0.4rem;
+  text-transform: uppercase;
+  color: #db511f;
+}
+
+.ModalSupporter .single {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ModalSupporter .single button {
+  background: #db511f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  border: none;
+  color: #ffffff;
+  width: 80%;
+  padding: 0.5rem;
+}
+
+.ModalSupporter .close {
+  margin-right: 0.7rem;
+  padding-top: 0.6rem;
+}
+.ModalSupporter .close button {
+  background-color: transparent;
+  border: none;
+  float: right;
+}
+
+.ModalSupporter .supporter-container {
+  height: 550px;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  overflow-y: auto;
+  padding: 0 1rem;
+}
+
+.ModalSupporter .supporter-container::-webkit-scrollbar-track {
+  background-color: #c4c4c4;
+}
+
+.ModalSupporter .supporter-container::-webkit-scrollbar {
+  width: 12px;
+  background-color: #c4c4c4;
+}
+
+.ModalSupporter .supporter-container::-webkit-scrollbar-thumb {
+  border: none;
+
+  background-color: #3d3d3d;
+}

@@ -1,0 +1,477 @@
+.SingleCompany {
+  display: flex;
+  background: #f2f5f7;
+  flex-direction: column;
+}
+
+.SingleCompany .companies-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.SingleCompany .companies-content {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.SingleCompany .header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #234355;
+  padding-bottom: 1rem;
+}
+
+.SingleCompany .header img {
+  margin-right: 1rem;
+  border-radius: 50%;
+  width: 4.5em;
+  height: 4.5em;
+  object-fit: cover;
+}
+
+.SingleCompany .header h2 {
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0.25px;
+}
+
+.SingleCompany .content {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.SingleCompany .content .left,
+.SingleCompany .content .right {
+  width: 48%;
+  text-align: left;
+}
+
+.SingleCompany .content span {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.SingleCompany .content .left {
+  display: flex;
+  flex-direction: column;
+}
+
+.SingleCompany .content textarea {
+  border: 1px solid #234355;
+  border-radius: 10px;
+  height: 540px;
+  padding: 1em;
+  line-height: 1.5em;
+}
+.SingleCompany .right .progress {
+  margin-bottom: 2rem;
+}
+
+.SingleCompany .dreamer-quotas {
+  width: 50%;
+  display: flex;
+  margin-left: 2rem;
+  flex-direction: column;
+}
+
+.SingleCompany .right .progress .quota:first-child {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.SingleCompany .right .progress .quota:last-child {
+  border-radius: 0px 5px 5px 0px;
+}
+
+.SingleCompany .content .numbers {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.SingleCompany .content .numbers .goal {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.SingleCompany .content .numbers input {
+  border: 1px solid #234355;
+  border-radius: 20px;
+  width: 176px;
+  height: 38px;
+  margin-top: 1rem;
+  padding: 1em;
+}
+
+.SingleCompany .content .risk {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.SingleCompany .content .buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.SingleCompany .content .risk .buttons button {
+  background: #7e7e7e;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  color: white;
+  padding: 1rem;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  width: 100%;
+}
+
+.SingleCompany .content .risk .buttons button:first-child {
+  border-radius: 10px 0px 0px 10px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.SingleCompany .content .risk .buttons button:last-child {
+  border-radius: 0 10px 10px 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.SingleCompany .supporters {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.SingleCompany .supporters span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SingleCompany .supporters span span {
+  font-size: 0.8rem;
+}
+
+.SingleCompany .supporters p {
+  margin-top: 1rem;
+}
+
+.SingleCompany .status .buttons button {
+  border-radius: 5px;
+  background: #7e7e7e;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.SingleCompany .status .buttons button:first-child {
+  margin-right: 1rem;
+}
+
+.integrations .buttons button:first-child {
+  width:50%;
+  border-radius: 5px;
+  background: #7e7e7e;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  margin: 0.5rem;
+}
+
+.SingleCompany .dreamer-profile {
+  margin: 0 auto;
+  margin-top: 5em;
+}
+
+.SingleCompany .dreamer-profile-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SingleCompany .dreamer-profile-content .left,
+.SingleCompany .dreamer-profile-content .right {
+  width: 48%;
+  text-align: left;
+}
+
+.SingleCompany .dreamer-profile h3 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 27px;
+
+  letter-spacing: 0.25px;
+  margin-bottom: 2rem;
+}
+
+.SingleCompany .dreamer-profile .profile-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.SingleCompany .dreamer-profile .profile-header h4 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+}
+
+.SingleCompany .dreamer-profile .profile-header span {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  color: #000000;
+}
+
+.SingleCompany .dreamer-profile .profile-header span span {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.SingleCompany .dreamer-profile .question {
+  margin-bottom: 2rem;
+}
+
+.SingleCompany .dreamer-profile .question {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.SingleCompany .dreamer-profile .question span {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.SingleCompany .profile label {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+.SingleCompany .profile label input {
+  border: 1px solid #234355;
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 20px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.SingleCompany .profile label input[type="file"] {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.SingleCompany .profile .file {
+  margin-top: 1rem;
+  border: 2px solid #db511f;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 30px;
+  width: 100%;
+  display: block;
+  padding: 0.8rem;
+  color: #db511f;
+  text-align: center;
+}
+
+.SingleCompany .footer {
+  background: #2a6687;
+  height: 90px;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SingleCompany .footer button {
+  width: 384px;
+  height: 55px;
+  margin-right: 2rem;
+  background: #db511f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+
+.SingleCompany .footer button:first-child {
+  background: #ffffff;
+  border: 2px solid #db511f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  color: #db511f;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.SingleCompany .active-btn {
+  background: #00ba77 !important;
+}
+
+.SingleCompany .orange {
+  background: #f57547 !important;
+}
+
+.Modal {
+  background-color: white;
+  width: 410px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Modal-supporter {
+  background-color: white;
+  width: 800px;
+  border-radius: 10px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Modal-supporter-container {
+  position: absolute !important;
+  background-color: white;
+  width: 800px;
+  border-radius: 10px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  top: 10% !important;
+  left: 30% !important;
+}
+
+.Modal .close button {
+  background-color: transparent;
+  border: none;
+  float: right;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 40%);
+}
+
+.ReactModal__Content--after-open {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+.SingleCompany .supporters-preview {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.SingleCompany .supporters-preview img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.SingleCompany .supporters-preview .more {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.SingleCompany .supporters-preview .more span {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.57);
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.SingleCompany .gray {
+  background: gray;
+  color: white;
+  
+}
+
+.SingleCompany .gray ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.SingleCompany .gray :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+.SingleCompany .gray ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+
+.SingleCompany .input-feedback {
+  color: red;
+  margin-bottom: 1rem;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.socios h3{
+  text-align: left;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 27px;
+
+  letter-spacing: 0.25px;
+  margin-bottom: 2rem;
+}

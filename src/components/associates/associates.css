@@ -1,0 +1,15 @@
+.Dreamers {
+  display: flex;
+  background: #f2f5f7;
+  height: 100vh;
+}
+
+.Dreamers .dreamers-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.Dreamers .dreamers-content {
+  margin-top: 1rem;
+}
